@@ -1,0 +1,92 @@
+# ---- Build output ---------------------------------------------------------
+build/
+out/
+bin/
+lib/
+obj/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.iobj
+*.ipdb
+
+# ---- CMake ----------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+install_manifest.txt
+Testing/
+_deps/
+
+# ---- MSBuild / Visual Studio ----------------------------------------------
+*.sln
+*.slnx
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+
+# ---- Editors / IDEs -------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-wheel-metadata/
+
+# ---- Jupyter --------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- OS metadata ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ---- Project: local test samples & extracted data -------------------------
+# Local game-engine inputs / outputs that should never be committed.
+data*/
+temp/
+unpack/
+gamepack/
+*.SRC
+*.DAT
+*.PGD
+*.pac
+*.json
+
+# ---- Project: dev-only scripts --------------------------------------------
+*_dev.py
+*.log
+memory

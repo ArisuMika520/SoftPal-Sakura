@@ -1,0 +1,5 @@
+IDI_ICON1 ICON "../../static/icon.ico"
+
+// 资源 id 201/202 与 MainForm.h 中 LoadEmbeddedPng 的硬编码 id 一致
+201 RCDATA "../../static/bg.png"
+202 RCDATA "../../static/icon.png"
